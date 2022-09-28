@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#80ed99, #EFB0C9, #EFB0C9, #80ed99);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-salute {
+    height: 165px;
+    background-size: contain;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gift-img-happy {
+    height: 330px;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy-office.webp");
+    background-size: 100%;
+}
+
+#gift-img-hot {
+    height: 370px;
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot-office.gif");
+}
+
+#gift-img-description {
+    height: 200px;
+}
+
+#gift-img-description:hover {
+    background-image: url("images/description.gif");
+    background-size: 100%;
+}
+
+#gift-img-muppet:hover {
+    background-image: url("images/muppet.gif");
+}
+
+#gift-img-salute:hover {
+    background-image: url("images/salute.gif");
+    background-size: 100%;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
